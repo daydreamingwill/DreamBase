@@ -42,11 +42,11 @@ class People(object):
                 
                 elif abandon_confirmation != "n" or "y":  # User told if input is invalid.               
 
-                     print "System >>> \"" + abandon_confirmation + "\" is an invalid command."
+                     print "System >>> " + abandon_confirmation + " is an invalid command."
    
             while pending_new_object != None:                                         
 
-                print "System >>> Please confirm, user wishes to create a new " + cls.__name__ + " called \"" + pending_new_object + "\" ? (y/n)?"
+                print "System >>> Please confirm, user wishes to create a new " + cls.__name__ + " called " + pending_new_object + " (y/n)?"
                 create_object_confirmation = raw_input("User >>> ")
                 
 
@@ -70,6 +70,5 @@ class People(object):
 
                 else:
 
-                    print "System >>> \"" + create_object_confirmation + "\" is an invalid command."
-
+                    print "System >>> " + create_object_confirmation + " is an invalid command."
 
