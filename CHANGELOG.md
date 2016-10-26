@@ -8,8 +8,11 @@ Example CHANGELOG for DreamBase
 * Once committed to master/release branch change the CHANGELOG.
   * Change "Unreleased version no." to release version number e.g. *0.18*
   * Change "date-of-release" to date in reverse order, so year-month-day.
+  
+## [0.18] 2015-08-25
+* Version 0.18 release.
 
-# Example release:
+# Example release delete once understood:
 ## [0.4.0] 2016-10-16
 
 ### Added
